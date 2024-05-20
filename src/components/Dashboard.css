@@ -1,0 +1,80 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #83b2e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-actions {
+    margin-top: 10px;
+  }
+  
+  .product-actions button {
+    padding: 8px 15px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .product-actions button.edit-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .product-actions button.edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-actions button.delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .product-actions button.delete-btn:hover {
+    background-color: #c82333;
+  }
+  
+  .add-product-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #218838;
+  }
+  
